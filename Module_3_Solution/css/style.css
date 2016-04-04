@@ -1,0 +1,39 @@
+body{
+	background:#000;
+}
+
+header nav.navbar.navbar-default{
+	margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0px;
+    background: #aaa;
+    position: fixed;
+    width: 100%;
+	z-index:100;
+}
+
+
+
+header nav.navbar.navbar-default .container-fluid .navbar-header a{
+	color:#000;
+}
+
+header nav.navbar.navbar-default .container-fluid  .navbar-collapse .navbar-nav a{
+	color:#000;
+	text-align:center;
+}
+
+main{
+	margin-top:70px;
+}
+
+main section{
+	background:#777;
+	border:1px solid #ccc;
+	color:#000;
+	margin-top:30px;
+}
+
+main section article{
+	line-height:2;
+}
